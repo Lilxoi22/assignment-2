@@ -47,7 +47,7 @@ section {
 
 .cards {
     width: 20%;
-
+    display: inline-block;
     border-radius: 5px;
     margin: 40px;
     box-shadow: 2px 2px 10px black;
@@ -87,3 +87,56 @@ button:hover {
     transition: .5s;
 
 }
+
+.box {
+    margin-left: 150px;
+    padding: 5%;
+}
+
+
+.inner-footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.social-links {
+    display: flex;
+    padding-left: 45%;
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 35px;
+    color: aquamarine;
+}
+
+.quick-links {
+    display: flex;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {}
