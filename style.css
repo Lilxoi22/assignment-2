@@ -208,12 +208,12 @@ footer {
 
     .top-info {
         position: relative;
-        left: 60px;
+        left: 05px;
         text-align: center;
     }
 
     .top-info h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .top-info p {
@@ -223,8 +223,9 @@ footer {
     }
 
     .top-image img {
-        width: 200px;
-        padding-left: 50px;
+        width: 250px;
+        padding-left: 20px;
+        padding-bottom: 25px;
 
     }
 
@@ -244,7 +245,7 @@ footer {
     }
 
     footer {
-        margin-top: 3000px;
+        margin-top: 1550px;
     }
 
     .links {
